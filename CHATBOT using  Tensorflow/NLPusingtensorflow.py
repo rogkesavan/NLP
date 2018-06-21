@@ -16,9 +16,9 @@ for intent in intents['intents']:
     for pattern in intent['patterns']:
         w = nltk.word_tokenize(pattern)
         words.extend(w)
-        documents.append((w, intent['tag']))
-        if intent['tag'] not in classes:
-            classes.append(intent['tag'])
+        documents.append((w, intent['t']))
+        if intent['t'] not in classes:
+            classes.append(intent['t'])
 words = [stemmer.stem(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
  remove duplicates
@@ -104,7 +104,7 @@ def response(sentence, userID='123', show_details=False):
     if results:
         while results:
             for i in intents['intents']:
-                if i['tag'] == results[0][0]:
+                if i['t'] == results[0][0]:
                     return print(random.choice(i['responses']))
 
 
