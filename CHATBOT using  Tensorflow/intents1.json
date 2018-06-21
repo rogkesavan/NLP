@@ -1,20 +1,20 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+        {"t": "greeting",
+         "p": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "res": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
          "context_set": ""
         },
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        {"t": "goodbye",
+         "p": ["Bye", "See you later", "Goodbye"],
+         "res": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
         },
-        {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        {"t": "thanks",
+         "p": ["Thanks", "Thank you", "That's helpful"],
+         "res": ["Happy to help!", "Any time!", "My pleasure"]
         },
-        {"tag": "shawarma ",
-         "patterns": ["do you have shawarma?", "i want 100 shawarma", "my name is k7 ?" ],
-         "responses": ["yes sir we have ", "i love you lol ", "lol " ]
+        {"t": "shawarma ",
+         "p": ["do you have shawarma?", "i want 100 shawarma", "my name is k7 ?" ],
+         "res": ["yes sir we have ", "i love you lol ", "lol " ]
         }
    ]
 }
