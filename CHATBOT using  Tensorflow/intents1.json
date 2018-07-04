@@ -13,7 +13,7 @@
          "res": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"t": "shawarma ",
-         "p": ["do you have shawarma?", "i want 100 shawarma", "my name is k7 ?" ],
+         "p": ["shawarma?", "i want 100 shawarma", "my name is k7 ?" ],
          "res": ["yes sir we have ", "i love you lol ", "lol " ]
         }
    ]
