@@ -108,5 +108,5 @@ def response(sentence, userID='123', show_details=False):
                     return print(random.choice(i['responses']))
 
 
-response('k7')
+response('HI')
 
